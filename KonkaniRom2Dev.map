@@ -135,4 +135,5 @@ pass(Unicode)
 'ê' > ; TBC
 0xCA <> "EE"
 0xF2 <> "OO" ; TBC
+'ô' <> "0032" ; TBC
 
