@@ -134,5 +134,5 @@ pass(Unicode)
 'ô' <> 'ओ' ; This need to be corrected
 'ê' > ; TBC
 0xCA <> "EE"
-
+0xF2 <> "OO" ; TBC
 
