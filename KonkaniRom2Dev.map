@@ -1,0 +1,138 @@
+﻿; This file was created by <author> using TECkitMappingEditorU.exe v4.0.0.0 on 21-Apr-17.
+;   Conversion Type = Legacy_to_from_Unicode
+;   Left-hand side font = Arial Unicode MS;11.25
+;   Right-hand side font = Arial Unicode MS;11.25
+;   Main Window Position = 0,0,658,713
+;   Left-hand side Character Map Window Position = 658,0,457,447
+;   Right-hand side Character Map Window Position = 658,447,457,447
+
+EncodingName            "Konkani_Roman_2_Devanagari"
+DescriptiveName         "Konkani Roman Script to Devanagari Script"
+Version                 "0.1"
+Contact                 "mailto:subramani11@gmail.com"
+RegistrationAuthority   "Bible Society of India"
+RegistrationName        "the name and version of the mapping, as recognized by that authority"
+Copyright               "© 2017 <Bible Society of India>. All rights reserved."
+LHSFlags                ()
+RHSFlags                ()
+
+pass(Unicode)
+class [cons] = ( 'a'..'z' 'A' .. 'Z')
+'e' / [cons] _ > 'z'
+'e' > 'E'
+pass(Unicode)
+'a' <> 'अ़'
+'a' <> 'अ'
+'aa' <> 'आ'
+'i' <> 'इ'
+'ii' <> 'ई'
+'u' <> 'उ'
+'oo' <> 'ऊ'
+'RRi' <> 'ऋ'
+'RRi' <> 'ॠ'
+'e' <> 'ए'
+'ai' <> 'ऐ'
+'ai' <> 'ऎ'
+'ae' <> 'ऍ'
+'ae' <> 'ऐ'
+'ae' <> 'ऍ'
+'LLi' <> 'ॡ'
+'LLi' <> 'ऌ'
+'o' <> 'ओ'
+'o' <> 'ऒ'
+'au' <> 'औ'
+'an' <> 'अं'
+'ŏ' <> 'अॅ'
+'O' <> 'ऑ'
+'ŏ' <> 'अँ'
+'aa' <> 'ा'
+'i' <> 'ि'
+'ii' <> 'ी'
+'u' <> 'ु'
+'oo' <> 'ू'
+'Ri' <> 'ृ'
+'e' <> 'े'
+'ae' <> 'ॅ'
+'ai' <> 'ै'
+'o' <> 'ो'
+'au' <> 'ौ'
+'aU' <> 'ोॅ'
+'.n' <> 'ं'
+'.n' <> 'ँ'
+'H' <> 'ः'
+'.h' <> '्'
+'.a' <> 'ऽ'
+'ŏ' <> 'ॉ'
+'o' <> 'ॆ'
+'o' <> 'ॊ'
+'x' <> '़'
+'ă' <> 'ॅ'
+'q' <> 'क़'
+'kh' <> 'ख़'
+'g' <> 'ग़'
+'z' <> 'ज़'
+'d' <> 'ड़'
+'dh' <> 'ढ़'
+'ph' <> 'फ़'
+'r' <> 'ऱ'
+'l' <> 'ऴ'
+'k' <> 'क'
+'kh' <> 'ख'
+'g' <> 'ग'
+'gh' <> 'घ'
+'~N' <> 'ङ'
+'ch' <> 'च'
+'chh' <> 'छ'
+'j' <> 'ज'
+'J' <> 'ज'
+'jh' <> 'झ'
+'~n' <> 'ञ'
+'T' <> 'ट'
+'Th' <> 'ठ'
+'D' <> 'ड'
+'Dh' <> 'ढ'
+'N' <> 'ण'
+'t' <> 'त'
+'th' <> 'थ'
+'d' <> 'द'
+'dh' <> 'ध'
+'n' <> 'न'
+'p' <> 'प'
+'f' <> 'फ'
+'b' <> 'ब'
+'bh' <> 'भ'
+'m' <> 'म'
+'y' <> 'य'
+'r' <> 'र'
+'l' <> 'ल'
+'L' <> 'ळ'
+'v' <> 'व'
+'sh' <> 'श'
+'S' <> 'ष'
+'s' <> 'स'
+'h' <> 'ह'
+'gy' <> 'ज्ञ'
+'j' <> 'ॼ'
+'b' <> 'ॿ'
+'D' <> 'ॾ'
+'g' <> 'ॻ'
+'.' <> '।'
+'.' <> '|'
+'OM' <> 'ॐ'
+'0' <> '0'
+'1' <> '1'
+'2' <> '2'
+'3' <> '3'
+'4' <> '4'
+'5' <> '5'
+'6' <> '6'
+'7' <> '7'
+'8' <> '8'
+'9' <> '9'
+
+
+'ô' <> 'ओ' ; This need to be corrected
+'ê' > ; TBC
+0xCA <> "EE"
+
+
